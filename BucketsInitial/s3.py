@@ -5,8 +5,8 @@ from botocore.exceptions import NoCredentialsError
 aws_access_key_id = ''  # API KEY
 aws_secret_access_key = ''  # APY KEY-SECRET
 bucket_name = 'leide'  # NOME DO BUCKET
-file_name = 'sa.png'  # NOME DO ARQUIVO
-s3_file_name = 'sa.png'  # Nome do arquivo no S3
+file_name = '../Files/sa.png'  # NOME DO ARQUIVO
+s3_file_name = '../Files/sa.png'  # Nome do arquivo no S3
 
 # Cria o cliente S3
 s3_client = boto3.client('s3',
